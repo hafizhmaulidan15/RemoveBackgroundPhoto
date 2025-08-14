@@ -4,8 +4,8 @@ import os, sys, subprocess, importlib.util, shutil
 from pathlib import Path
 
 # ====== KONFIGURASI ======
-INPUT_DIR  = r"D:\Hafizh\File IPB\Semester 8\Final TA\Folder gambar pisang"
-OUTPUT_DIR = r"D:\Hafizh\File IPB\Semester 8\Final TA\Folder gambar pisang\hasil_remove_bg"
+INPUT_DIR  = r"....\Folder gambar" #Masukan alamat folder yang berisikan foto yang ingin di hapus backgoundnya, copy aja folder path
+OUTPUT_DIR = r"....\Folder gambar\hasil_remove_bg" #Ini folder untuk outputnya
 ALLOWED_EXT = {".jpg", ".jpeg", ".png", ".bmp", ".JPG", ".JPEG", ".PNG", ".BMP"}
 MAX_SIDE = 3000  # kecilkan (mis. 2048) kalau mau lebih cepat/hemat RAM
 
